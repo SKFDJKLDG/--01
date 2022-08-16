@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #eee;
+}
+* {
+  border: 1px solid black;
+}
+.flex {
+  display: flex;
+}
+.white {
+  background-color: white;
+}
+.flex1 {
+  flex: 1;
+}
+.column {
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  .cebian {
+    display: none;
+  }
+}
